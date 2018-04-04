@@ -4,5 +4,38 @@
 
 html {
   font-size: 14px;
+}
+
+body {
   font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+/*---------------------------
+  #BOOTSTRAP-OVERRIDES
+---------------------------*/
+
+/* NAVBAR */
+
+.navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+  box-shadow: none;
+  color: #399bd1;
+}
+
+
+
+
+
+/*---------------------------
+  #SITE-NAVIGATION
+---------------------------*/
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
