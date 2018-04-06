@@ -10,7 +10,24 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.text-color {
+  color: #399bd1;
+}
 
 
 
@@ -95,4 +112,25 @@ body {
                 1px -1px 0 #000,
                -1px  1px 0 #000,
                 1px  1px 0 #000;
+}
+
+
+
+
+
+/*---------------------------
+  #MAIN-CONTENT
+---------------------------*/
+
+.featured-project h2 {
+  padding-bottom: 20px;
+}
+
+.featured-project ul li {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.image-container {
+
 }
