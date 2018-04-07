@@ -96,6 +96,24 @@ h3 {
   background-position: center;
 }
 
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .jumbotron .container h1 {
   color: white;
   font-family: "Monoton";
