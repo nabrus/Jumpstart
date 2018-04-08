@@ -87,34 +87,29 @@ h3 {
 
 .jumbotron {
   text-align: center;
-  padding: 11.85rem 0;
+  height: 44rem;
+  padding-top: 10rem;
+  background-size: cover;
+  background-position: center;
 }
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .jumbotron-beer {
   background-image: url("../images/jumbotron-beer.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .jumbotron-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .jumbotron-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
-.jumbotron .container h1 {
+.jumbotron h1 {
   color: white;
   font-family: "Monoton";
   font-size: 7.1rem;
@@ -124,7 +119,7 @@ h3 {
                 1px  1px 0 #000;
 }
 
-.jumbotron .container p {
+.jumbotron p {
   max-width: 51.3rem;
   margin: 0 auto;
   color: white;
@@ -134,8 +129,15 @@ h3 {
                 1px  1px 0 #000;
 }
 
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 520px) {
-  .jumbotron .container h1 {
+  .jumbotron h1 {
     font-size: 5.7rem;
   }
 }
@@ -150,6 +152,7 @@ h3 {
 
 .featured-project {
   padding-bottom: 5.85rem;
+  margin-top: -7rem; /* adjusts for relative bnt */
 }
 
 .featured-project h2:nth-of-type(1) {
